@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 0px;
+  margin-top: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
@@ -38,17 +38,46 @@ table {
 }
 
 .top {
-  /*background-color: #CDF0EA;*/
   position: relative;
   padding-top: 100px;
 }
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+
 .middle {
-  /*background-color: #CDF0EA;*/
   position: relative;
   padding: 100px;
 }
+.profile-pic {
+  margin-bottom: 60px;
+}
+.profile {
+  width: 75%;
+  line-height: 2;
+  margin: auto auto 100px auto;
+}
+.skills {
+  margin-top: 40px;
+  line-height: 2;
+}
 .coding-pic {
-  width: 350px;
+  width: 60%;
+}
+.td-left {
+  text-align: left;
+}
+.td-center {
+  text-align: center;
 }
 .skills-hr {
   border-style: none;
@@ -57,23 +86,28 @@ table {
   border-width: 5px;
   width: 50%;
 }
+.skill-CS {
+  width: 50%;
+  margin: 0 auto 100px auto;
+}
+.skill-Engineering {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
 .bioengineer-pic {
-  width: 250px;
+  width: 50%;
 }
+.contact-me {
+  margin-top: 40px;
+}
+.contact-pic {
+  width: 10%;
+}
+
+
+
 .bottom {
-  /*background-color: #CDF0EA;*/
   position: relative;
-  padding: 100px;
-}
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-
-}
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-
+  padding: 100px auto 0 auto;
 }
